@@ -1,4 +1,4 @@
-FROM tomcat:8.0
+FROM tomcat:8.5.69-jdk8-openjdk
 MAINTAINER Ahmad_Sabateen
 
 COPY redisson-tomcat-8-3.16.1.jar /usr/local/tomcat/lib
